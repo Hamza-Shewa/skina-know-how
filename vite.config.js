@@ -5,7 +5,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/', // Replace 'skina-website' with your actual repository name
+  base: '/skina-know-how/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
