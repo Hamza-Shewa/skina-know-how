@@ -7,7 +7,7 @@ function App() {
     {
       title: "Login & Authentication",
       description: "Secure login with option to stay logged in for convenience",
-      image: "/assets/image-1.png",
+      image: "assets/image-1.png",
       icon: "smartphone",
       details: [
         "To log in, use the provided credentials upon registration.",
@@ -18,7 +18,7 @@ function App() {
       title: "Manage Bookings",
       description:
         "View and manage all bookings on a first-come, first-served basis",
-      image: "/assets/image-2.png",
+      image: "assets/image-2.png",
       icon: "calendar",
       details: [
         "View all incoming booking requests in chronological order.",
@@ -31,7 +31,7 @@ function App() {
       title: "Booking Details",
       description:
         "Accept or decline bookings, check status, and contact support",
-      image: "/assets/image-3.png",
+      image: "assets/image-3.png",
       icon: "circle-check-big",
       details: [
         "Accept or decline booking requests with one tap.",
@@ -44,7 +44,7 @@ function App() {
       title: "Manage Locations",
       description:
         "Filter and manage your business locations with easy navigation",
-      image: "/assets/image-4.png",
+      image: "assets/image-4.png",
       icon: "map-pin",
       details: [
         "Switch between multiple business locations seamlessly.",
@@ -56,7 +56,7 @@ function App() {
     {
       title: "Calendar View",
       description: "See employee schedules and assigned bookings by day",
-      image: "/assets/image-5.png",
+      image: "assets/image-5.png",
       icon: "calendar",
       details: [
         "View daily, weekly, and monthly calendar layouts.",
@@ -69,7 +69,7 @@ function App() {
       title: "Profile Management",
       description:
         "Manage profile, change language, view bookings, and access support",
-      image: "/assets/image-6.png",
+      image: "assets/image-6.png",
       icon: "settings",
       details: [
         "Update business profile information and contact details.",
@@ -81,7 +81,7 @@ function App() {
     {
       title: "Notifications",
       description: "View recent notifications and manage them efficiently",
-      image: "/assets/image-7.png",
+      image: "assets/image-7.png",
       icon: "bell",
       details: [
         "Receive real-time notifications for new bookings.",
@@ -94,7 +94,7 @@ function App() {
       title: "Home App-bar",
       description:
         "Easy access to notifications and side drawer from the app bar",
-      image: "/assets/image-2.png",
+      image: "assets/image-2.png",
       icon: "smartphone",
       details: [
         "Quick access to notification center from the top bar.",
@@ -106,7 +106,7 @@ function App() {
     {
       title: "Side Drawer View",
       description: "Quick access to services, employees, reviews, and settings",
-      image: "/assets/image-8.png",
+      image: "assets/image-8.png",
       icon: "settings",
       details: [
         "Access all app features from the side navigation.",
@@ -120,7 +120,7 @@ function App() {
       title: "Manage Services",
       description:
         "Filter, edit, and add services with detailed management options",
-      image: "/assets/image-9.png",
+      image: "assets/image-9.png",
       icon: "star",
       details: [
         "Add new services with pricing and duration.",
@@ -133,7 +133,7 @@ function App() {
     {
       title: "Manage Employees",
       description: "Edit, delete, and add employees to specific locations",
-      image: "/assets/image-10.png",
+      image: "assets/image-10.png",
       icon: "users",
       details: [
         "Add new employees with contact information.",
