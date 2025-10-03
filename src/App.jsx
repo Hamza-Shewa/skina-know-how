@@ -18,61 +18,124 @@ function App() {
       title: "Manage Bookings",
       description: "View and manage all bookings on a first-come, first-served basis",
       image: "/assets/image-2.png",
-      icon: "calendar"
+      icon: "calendar",
+      details: [
+        "View all incoming booking requests in chronological order.",
+        "See customer details, service type, and preferred time slots.",
+        "Manage bookings based on first-come, first-served policy.",
+        "Filter bookings by status: pending, confirmed, or completed."
+      ]
     },
     {
       title: "Booking Details",
       description: "Accept or decline bookings, check status, and contact support",
       image: "/assets/image-3.png",
-      icon: "circle-check-big"
+      icon: "circle-check-big",
+      details: [
+        "Accept or decline booking requests with one tap.",
+        "View detailed customer information and service requirements.",
+        "Check booking status and appointment history.",
+        "Contact customer support directly from the booking details."
+      ]
     },
     {
       title: "Manage Locations",
       description: "Filter and manage your business locations with easy navigation",
       image: "/assets/image-4.png",
-      icon: "map-pin"
+      icon: "map-pin",
+      details: [
+        "Switch between multiple business locations seamlessly.",
+        "Filter bookings and services by specific location.",
+        "Manage location-specific settings and availability.",
+        "View location performance and booking statistics."
+      ]
     },
     {
       title: "Calendar View",
       description: "See employee schedules and assigned bookings by day",
       image: "/assets/image-5.png",
-      icon: "calendar"
+      icon: "calendar",
+      details: [
+        "View daily, weekly, and monthly calendar layouts.",
+        "See employee schedules and availability.",
+        "Track assigned bookings for each employee.",
+        "Identify scheduling conflicts and optimize appointments."
+      ]
     },
     {
       title: "Profile Management",
       description: "Manage profile, change language, view bookings, and access support",
       image: "/assets/image-6.png",
-      icon: "settings"
+      icon: "settings",
+      details: [
+        "Update business profile information and contact details.",
+        "Change app language and regional settings.",
+        "View personal booking history and statistics.",
+        "Access customer support and help documentation."
+      ]
     },
     {
       title: "Notifications",
       description: "View recent notifications and manage them efficiently",
       image: "/assets/image-7.png",
-      icon: "bell"
+      icon: "bell",
+      details: [
+        "Receive real-time notifications for new bookings.",
+        "Get reminders for upcoming appointments.",
+        "Manage notification preferences and frequency.",
+        "Mark notifications as read or delete them."
+      ]
     },
     {
       title: "Home App-bar",
       description: "Easy access to notifications and side drawer from the app bar",
       image: "/assets/image-2.png",
-      icon: "smartphone"
+      icon: "smartphone",
+      details: [
+        "Quick access to notification center from the top bar.",
+        "Open side drawer menu with one tap.",
+        "View unread notification count badge.",
+        "Navigate to main sections of the app easily."
+      ]
     },
     {
       title: "Side Drawer View",
       description: "Quick access to services, employees, reviews, and settings",
       image: "/assets/image-8.png",
-      icon: "settings"
+      icon: "settings",
+      details: [
+        "Access all app features from the side navigation.",
+        "Manage services and service categories.",
+        "View and manage employee information.",
+        "Read customer reviews and ratings.",
+        "Access app settings and preferences."
+      ]
     },
     {
       title: "Manage Services",
       description: "Filter, edit, and add services with detailed management options",
       image: "/assets/image-9.png",
-      icon: "star"
+      icon: "star",
+      details: [
+        "Add new services with pricing and duration.",
+        "Edit existing service details and descriptions.",
+        "Filter services by category and availability.",
+        "Set service-specific booking rules and requirements.",
+        "Manage service images and promotional content."
+      ]
     },
     {
       title: "Manage Employees",
       description: "Edit, delete, and add employees to specific locations",
       image: "/assets/image-10.png",
-      icon: "users"
+      icon: "users",
+      details: [
+        "Add new employees with contact information.",
+        "Assign employees to specific business locations.",
+        "Edit employee profiles and service specializations.",
+        "Remove employees from the system when needed.",
+        "Track employee performance and booking history."
+      ]
     }
   ]
 

@@ -1,66 +1,62 @@
-'''
 # Skina Business Website
 
-This project is a small website that identifies the Skina project and demonstrates how the app is used. The website is built using React and utilizes assets from a provided presentation and additional information from the skina.net website.
+A comprehensive landing page for Skina Business - a mobile application designed for managing beauty and sports service reservations. This website demonstrates the app's features and provides an interactive guide on how to use the application.
 
-## Technologies Used
+## 🚀 Features
 
-*   **React:** A JavaScript library for building user interfaces.
-*   **Vite:** A fast build tool that provides a quicker and leaner development experience for modern web projects.
-*   **Tailwind CSS:** A utility-first CSS framework for rapidly building custom designs.
-*   **shadcn/ui:** A collection of re-usable components built using Radix UI and Tailwind CSS.
-*   **Lucide React:** A collection of simply designed, beautiful icons.
+- **Interactive Navigation**: Clickable step-by-step guide with dynamic image display
+- **Responsive Design**: Mobile-first approach with Tailwind CSS
+- **Modern UI**: Clean, professional design with smooth animations
+- **Asset Integration**: Uses actual app screenshots from the assets folder
+- **Interactive Elements**: Hover effects, active states, and smooth transitions
 
-## Project Structure
+## 🛠 Technologies Used
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/  # Static assets like images
-│   ├── components/
-│   │   └── ui/  # UI components from shadcn/ui
-│   ├── hooks/  # Custom React hooks
-│   ├── lib/  # Utility functions and libraries
-│   ├── App.css  # App-specific styles
-│   ├── App.jsx  # Main App component
-│   ├── index.css  # Global styles
-│   └── main.jsx  # Entry point
-├── components.json  # shadcn/ui configuration
-├── eslint.config.js  # ESLint configuration
-├── index.html  # HTML entry point
-├── package.json  # Project dependencies and scripts
-├── pnpm-lock.yaml  # Lock file for dependencies
-└── vite.config.js  # Vite bundler configuration
-```
+- **React 18**: Modern JavaScript library for building user interfaces
+- **Vite**: Lightning-fast build tool and development server
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development
+- **shadcn/ui**: Beautiful, accessible component library
+- **Lucide React**: Simple, beautiful icon library
+- **PostCSS**: CSS processing with Tailwind integration
 
-## How to Run
+## 📱 Skina Business App Features
 
-1.  Install dependencies: `npm install` or `pnpm install`
-2.  Start the development server: `npm run dev` or `pnpm run dev`
-3.  Build for production: `npm run build` or `pnpm run build`
-4.  Preview production build: `npm run preview` or `pnpm run preview`
+### Core Features
+- ✅ **No subscription fees** for using the app
+- ✅ **24/7 online booking** acceptance
+- ✅ **SMS/Email notifications** and reminders
+- ✅ **Mobile-optimized** booking experience
+- ✅ **Social media integration** (Facebook, Instagram, Google)
+- ✅ **Online payment** processing and deposits
+- ✅ **Custom features** and API integration
 
-## Available Scripts
+### App Functionality
+1. **Login & Authentication** - Secure login with stay-logged-in option
+2. **Manage Bookings** - First-come, first-served booking management
+3. **Booking Details** - Accept/decline bookings with status tracking
+4. **Manage Locations** - Multi-location business management
+5. **Calendar View** - Employee schedules and assigned bookings
+6. **Profile Management** - User settings and language options
+7. **Notifications** - Real-time notification management
+8. **Home App-bar** - Quick access to notifications and drawer
+9. **Side Drawer View** - Access to services, employees, reviews
+10. **Manage Services** - Service catalog management
+11. **Manage Employees** - Employee management by location
 
-- `npm run dev` - Start the development server
-- `npm run build` - Build the project for production
-- `npm run preview` - Preview the production build locally
-- `npm run lint` - Run ESLint to check for code issues
-
-## Project Structure
+## 🏗 Project Structure
 
 ```
 .
 ├── public/
-│   └── assets/          # Static image assets
+│   └── assets/          # App screenshot images (image-1.png to image-10.png)
 ├── src/
 │   ├── components/
-│   │   └── ui/          # UI components from shadcn/ui
-│   ├── lib/             # Utility functions
-│   ├── App.css          # App-specific styles with Tailwind
-│   ├── App.jsx          # Main App component
-│   └── main.jsx         # Entry point
+│   │   └── ui/          # shadcn/ui components (button, card, badge)
+│   ├── lib/
+│   │   └── utils.js     # Utility functions
+│   ├── App.css          # Global styles with Tailwind directives
+│   ├── App.jsx          # Main application component
+│   └── main.jsx         # Application entry point
 ├── components.json      # shadcn/ui configuration
 ├── eslint.config.js     # ESLint configuration
 ├── index.html           # HTML entry point
@@ -69,4 +65,82 @@ This project is a small website that identifies the Skina project and demonstrat
 ├── tailwind.config.js   # Tailwind CSS configuration
 └── vite.config.js       # Vite bundler configuration
 ```
-'''
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or pnpm package manager
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd skina-website
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   pnpm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   # or
+   pnpm dev
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:5173` to view the website
+
+### Build for Production
+
+```bash
+npm run build
+# or
+pnpm build
+```
+
+## 📜 Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build the project for production
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint to check for code issues
+
+## 🎨 Customization
+
+### Adding New Steps
+To add new steps to the "How to Use Skina Business" section:
+
+1. Add a new object to the `steps` array in `App.jsx`
+2. Include the required properties:
+   - `title`: Step title
+   - `description`: Brief description
+   - `image`: Path to the screenshot image
+   - `icon`: Icon name for the step
+   - `details`: Array of bullet points (optional)
+
+### Styling
+The project uses Tailwind CSS for styling. Key customization points:
+
+- Colors: Defined in `tailwind.config.js`
+- Components: Located in `src/components/ui/`
+- Global styles: `src/App.css`
+
+## 📞 Contact
+
+- **Email**: info@skina.net
+- **Website**: skina.net
+
+## 📄 License
+
+© 2024 Skina Business. All rights reserved.
+
+---
+
+Built with ❤️ using React, Vite, and Tailwind CSS
